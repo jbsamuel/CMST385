@@ -15,10 +15,7 @@ a {
     text-decoration: none;
 }
 
-/* a:visited {
-    color: ;
-} */
-
 footer {
-    margin-top: 30px;
+    text-align: right;
+    margin-top: 250px;
 }
