@@ -1,7 +1,24 @@
-/*body{*/
-/*    !*background-image: url("background.jpg");*!*/
-/*}*/
+body {
+    background-image: url("background2.jpg");
+    background-size: cover;
+
+}
+
 #container {
+    color: white;
     text-align: center;
     margin-top: 350px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* a:visited {
+    color: ;
+} */
+
+#footer_deco {
+    margin-top: 30px;
 }
