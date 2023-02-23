@@ -22,10 +22,21 @@ ul {
     list-style-type: none;
 }
 
+/*Nav links*/
 ul li a {
     text-decoration: none;
     color: whitesmoke;
 }
+
+ul li a:visited {
+    color: gray;
+}
+
+ul li a:hover {
+    color: rgb(224, 33, 33);
+}
+
+
 
 /*------Home Page------*/
 
