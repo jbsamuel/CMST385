@@ -5,7 +5,7 @@ body {
     color: white;
 }
 
-/*Navigation Menu*/
+/*Navigation Menu - Make his name the home menu*/
 
 .nav-menu {
     text-align: center;
@@ -50,7 +50,7 @@ ul li a:hover {
 
 }
 
-/*Artist Information - fix alignment*/
+/*Artist Information - fix alignment, get more info*/
 .information {
     text-align: justify;
 }
