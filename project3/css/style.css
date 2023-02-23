@@ -35,7 +35,21 @@ ul li a {
     margin-left: auto;
     margin-right: auto;
     width: 55%;
+    opacity: 0.8;
 
 }
 
-/*Artist Information*/
+/*Artist Information - fix alignment*/
+.information {
+    text-align: justify;
+}
+
+/*------Music Page------*/
+
+
+
+
+
+
+
+/*------News Page------*/
