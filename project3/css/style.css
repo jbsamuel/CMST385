@@ -1,11 +1,3 @@
-/*Background   page header footer*/
-body {
-    margin: 0;
-    background-color: black;
-    color: white;
-    font-family: Verdana, Arial, sans-serif;
-}
-
 /*All Pages*/
 h1 {
     color: white;
@@ -28,6 +20,14 @@ p {
     font-size: medium;
 }
 
+/*Background page header footer*/
+body {
+    padding-left: 5%;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Arial, sans-serif;
+}
 
 /*Navigation Menu*/
 #page-title {
@@ -72,12 +72,12 @@ ul li a:hover {
 
 /*------Home Page------*/
 
-/*Main Image -- make cover page, put text over*/
+/*Main Image*/
 #bobby-slavov {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 55%;
+    width: 60%;
     opacity: 0.8;
 
 }
@@ -144,4 +144,34 @@ ol {
     padding-left: 3%;
 }
 
+
 /*------News Page------*/
+.latest-info {
+    text-align: justify;
+    color: white;
+}
+
+/*Podcast News*/
+.podcast-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.podcast-link a:hover {
+    color: wheat;
+}
+
+.podcast-link {
+    text-align: center;
+
+}
+
+/*Release News*/
+.song-release {
+    text-align: center;
+}
+
+/*Awards News*/
+.award-nominee {
+    text-align: center;
+}
