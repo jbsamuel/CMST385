@@ -1,20 +1,52 @@
-/*Background*/
+/*Background   page header footer*/
 body {
     margin: 0;
     background-color: black;
     color: white;
+    font-family: Verdana, Arial, sans-serif;
 }
 
+/*All Pages*/
+h1 {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: red;
+    font-size: large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: rgb(229, 238, 247);
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 10px;
+    font-size: medium;
+}
+
+
 /*Navigation Menu - Make his name the home menu*/
+#page-title {
+    display: inline-block;
+}
+
+#boris-title {
+    text-align: left;
+}
 
 .nav-menu {
     text-align: center;
+    vertical-align: top;
+
 }
 
 nav li {
-    padding: 40px;
-    display: inline-flex;
-    flex-wrap: wrap;
+    padding: 0px 40px;
+    display: inline-block;
     justify-content: center;
 }
 
@@ -55,12 +87,57 @@ ul li a:hover {
     text-align: justify;
 }
 
+
 /*------Music Page------*/
 
+/* .album-cover {} */
+
+/*Album Images*/
+
+#divinity-sins-2-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 3%;
+}
+
+#bg3-soundtrack-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 0 5%;
+
+}
+
+#piano-album {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 3%;
+}
+
+/*Songs*/
+
+.album-songs {
+    text-align: center;
+}
 
 
+ol {
+    list-style-type: none;
+}
 
+/*headers*/
+.album-head {
+    padding-left: 3%;
+}
 
-
+/*footer*/
+.album-footer {
+    padding-left: 5%;
+}
 
 /*------News Page------*/
