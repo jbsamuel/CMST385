@@ -27,7 +27,12 @@ p {
 
 .top-of-page a {
     color: wheat;
-    ;
+    text-decoration: none;
+}
+
+figcaption {
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 /*Background page header footer*/
@@ -113,7 +118,7 @@ ul li a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    padding: 3%;
+    padding: 3% 0 0 3%;
 }
 
 #bg3-soundtrack-img {
@@ -121,7 +126,7 @@ ul li a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    padding: 0 5%;
+    padding: 3% 0 0 3%;
 
 }
 
@@ -130,7 +135,7 @@ ul li a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    padding: 3%;
+    padding: 3% 0 0 3%;
 }
 
 /*Songs*/
