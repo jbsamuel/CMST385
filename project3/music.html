@@ -10,7 +10,7 @@
 <body>
     <!--Top of Page Navigation -->
     <header>
-        <h1>Borislav Slavov</h1>
+        <h1 id="boris-title">Borislav Slavov</h1>
         <nav class="nav-menu">
             <ul>
                 <li><a href=index.html>Home</a></li>
@@ -21,79 +21,93 @@
     </header>
 
     <!--Album Info-->
-    <h1>Albums</h1>
-    <section>
-        <img src="imgs/divinity_sins_2.jpg" alt="Divinity Orginal Sin 2 Album Cover">
-        <header>
-            <h2>Divinity: Original Sin 2 - Original Soundtrack</h2>
-        </header>
-        <ol>
-            <li>Power of Innocence 2017 (Orchestral Version)</li>
-            <li>Embrace of the Deathfog</li>
-            <li>The Queen's High Seas (Beast's Theme)</li>
-            <li>Divinity - Original Sin 2 (Main Theme)</li>
-            <li>Welcome to Fort Joy</li>
-            <li>Rivellon</li>
-            <li>A Part of Their Story</li>
-            <li>Symphony of the Void</li>
-            <li>Reaper's Coast</li>
-            <li>Divine's Lament</li>
-            <li>Dancing with the Source (Oud Version)</li>
-            <li>Sins and Gods (Strings Version)</li>
-            <li>Dancing with the Source (Tambura Version)</li>
-        </ol>
-        <footer>
-            <p>Published September 2017</p>
-        </footer>
-    </section>
-    <section>
-        <img src="imgs/divinity_sins_2_piano.jpg" alt="Divinity Orginal Sin 2 Piano Album Cover">
-        <header>
-            <h2>Divinity Original Sin II Piano Album</h2>
-        </header>
-        <ol>
-            <li> Part of Their Story
-            <li>Sins and Gods</li>
-            <li>Fane's Theme</li>
-            <li>Dancing with the Source</li>
-            <li>Red Prince Theme</li>
-            <li>Power of Innocent</li>
-            <li>Welcome to Fort Joy</li>
-            <li>Driftwood</li>
-            <li>Sebille's Theme</li>
-            <li>The Queen's High Seas</li>
-            <li>Mead, Gold and Blood</li>
-            <li>Path of the Godwoken</li>
-            <li>Main Theme</li>
-        </ol>
-        <footer>
-            <p>Published Feb 2019</p>
-        </footer>
-    </section>
-    <section>
-        <img src="imgs/bg3_soundtrack.png" alt="Baldur's Gate 3 Soundtrack Album Cover">
-        <header>
-            <h2>Baldur's Gate 3 - Original Soundtrack</h2>
-        </header>
-        <ol>
-            <li>I Want to Live</li>
-            <li>Weeping Dawn</li>
-            <li>Harpy Song</li>
-            <li>Restless Dreams</li>
-            <li>Down by The River</li>
-            <li>The Power</li>
-            <li>Dream Song</li>
-            <li>Raphael's Theme</li>
-            <li>Dream Song 2</li>
-            <li>DreamWalk</li>
-            <li>The Power (instrumental)</li>
-            <li>Wash My Pain Away</li>
-            <li>Song of Power</li>
-        </ol>
-    </section>
-    <footer>
-        <p>Published December 2020</p>
-    </footer>
+    <section class="album-cover">
+        <h1>Music Albums</h1>
+        <section>
+            <img src="imgs/bg3_soundtrack.png" alt="Baldur's Gate 3 Soundtrack Album Cover" id="bg3-soundtrack-img">
+            <header class="album-head">
+                <h2>Baldur's Gate 3 - Original Soundtrack</h2>
+            </header>
+        </section>
+        <section class="album-songs">
+            <ol>
+                <li>I Want to Live</li>
+                <li>Weeping Dawn</li>
+                <li>Harpy Song</li>
+                <li>Restless Dreams</li>
+                <li>Down by The River</li>
+                <li>The Power</li>
+                <li>Dream Song</li>
+                <li>Raphael's Theme</li>
+                <li>Dream Song 2</li>
+                <li>DreamWalk</li>
+                <li>The Power (instrumental)</li>
+                <li>Wash My Pain Away</li>
+                <li>Song of Power</li>
+            </ol>
+
+            <footer class="album-footer">
+                <p>Published December 2020</p>
+            </footer>
+        </section>
+
+        <!--Second album-->
+        <section class="album-cover">
+            <img src="imgs/divinity_sins_2_piano.jpg" alt="Divinity Orginal Sin 2 Piano Album Cover" id="piano-album">
+            <header class="album-head">
+                <h2>Divinity Original Sin II Piano Album</h2>
+            </header>
+        </section>
+
+        <section class="album-songs">
+            <ol>
+                <li> Part of Their Story
+                <li>Sins and Gods</li>
+                <li>Fane's Theme</li>
+                <li>Dancing with the Source</li>
+                <li>Red Prince Theme</li>
+                <li>Power of Innocent</li>
+                <li>Welcome to Fort Joy</li>
+                <li>Driftwood</li>
+                <li>Sebille's Theme</li>
+                <li>The Queen's High Seas</li>
+                <li>Mead, Gold and Blood</li>
+                <li>Path of the Godwoken</li>
+                <li>Main Theme</li>
+            </ol>
+
+            <footer class="album-footer">
+                <p>Published Feb 2019</p>
+            </footer>
+        </section>
+        <!--third album-->
+        <section>
+            <img src="imgs/divinity_sins_2.jpg" alt="Divinity Orginal Sin 2 Album Cover" id="divinity-sins-2-img">
+        </section>
+        <section class="album-songs">
+            <header class="album-head">
+                <h2>Divinity: Original Sin 2 - Original Soundtrack</h2>
+            </header>
+            <ol>
+                <li>Power of Innocence 2017 (Orchestral Version)</li>
+                <li>Embrace of the Deathfog</li>
+                <li>The Queen's High Seas (Beast's Theme)</li>
+                <li>Divinity - Original Sin 2 (Main Theme)</li>
+                <li>Welcome to Fort Joy</li>
+                <li>Rivellon</li>
+                <li>A Part of Their Story</li>
+                <li>Symphony of the Void</li>
+                <li>Reaper's Coast</li>
+                <li>Divine's Lament</li>
+                <li>Dancing with the Source (Oud Version)</li>
+                <li>Sins and Gods (Strings Version)</li>
+                <li>Dancing with the Source (Tambura Version)</li>
+            </ol>
+            <footer class="album-footer">
+                <p>Published September 2017</p>
+            </footer>
+        </section>
+
 
 </body>
 
